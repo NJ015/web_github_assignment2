@@ -1,12 +1,12 @@
 <html>
 <head>
-
+    <link rel="stylesheet" href="../styling/signup.css">
 </head>
 
 <body>
     <div id="container">
-        <span>Sign Up</span>
-        <form method="POST" action="BE/register.php">
+        <span>SignUp</span>
+        <form method="POST" action="../BE/register.php">
             <label for="fn">First name</label>
             <input type="text" name="fn">
             <br>
@@ -20,8 +20,16 @@
             <input type="password" name="pass">
             <br>
             <label for="sex">Sex</label>
-            <input type="radio" name="sex" value="Female">
-            <input type="radio" name="sex" value="Male">
+            <div id="sex">
+                <div id="f">
+                    <input type="radio" name="sex" value="Female">
+                    <label for="sex">Female</label>
+                </div>
+                <div id="m">
+                    <input type="radio" id="m" name="sex" value="Male">
+                    <label for="sex">Male</label>
+                </div>
+            </div>
             <br>
             <label for="dob">Date of Birth</label>
             <input type="date" name="dob">
