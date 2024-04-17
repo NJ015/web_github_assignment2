@@ -6,7 +6,7 @@
 <body>
     <div id="container">
         <span>Login</span>
-        <form method="POST" action="../BE/register.php">
+        <form method="POST" action="../BE/validate.php">
             <label for="un">Username</label>
             <input type="text" name="un">
             <br>
