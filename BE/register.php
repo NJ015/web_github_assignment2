@@ -28,7 +28,6 @@ $sex = $_POST["sex"];
 $dob = $_POST["dob"];
 
 if (empty($fn) || empty($ln) || empty($un) || empty($pass) || empty($sex) || empty($dob)) {
-    echo "Please fill all the fields";
     header("location:../pages/signup.php?error=empty_fields");
     exit;
 }
