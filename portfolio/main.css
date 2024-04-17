@@ -1,0 +1,116 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: rgb(255, 234, 196);
+}
+
+#header {
+    width: 100%;
+    background: rgb(213, 163, 87);
+    border-bottom: 8px solid rgb(128, 71, 1);
+    border-bottom-right-radius: 30px;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.row {
+    display: block;
+    width: 100%;
+}
+
+#menu{
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 80px;
+    vertical-align: middle;
+    color: rgb(253, 225, 174);
+    font-family: 'Courier New', Courier, monospace;
+    /***************************************************************************************************************************************/
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.menul{
+    cursor: pointer;
+    display: none;
+    background: rgb(213, 163, 87);
+    border: 8px solid rgb(128, 71, 1);
+    position: relative;
+    min-width: 160px;
+    z-index: 1;
+    left: 0;
+    font-weight: bold;
+    font-size: medium;
+    border-bottom-right-radius: 30px;
+}
+
+#menu:hover .menul{
+    display: block;
+}
+
+ul{
+    margin: 0;
+    list-style: none;
+    display: block;
+    padding-inline-start: 0px;
+}
+
+.menul li{
+    border-bottom: 1px solid rgb(128, 71, 1);
+}
+
+.menul li:hover{
+    display: block;
+    background: rgb(128, 71, 1);
+    color: rgb(213, 163, 87);
+}
+
+.content{
+    padding-top: 70px;
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    background: rgb(213, 163, 87);
+    border-top: 8px solid rgb(128, 71, 1);
+    border-top-right-radius: 30px;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: rgb(253, 225, 174);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+}
+
+.ciddiv{
+    width: 100%;
+    float: right;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+.cid{
+    float: left;
+    text-align: center;
+    width: 33%;
+    height: inherit;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+a{
+    cursor: pointer;
+    color: rgb(89, 45, 14);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
