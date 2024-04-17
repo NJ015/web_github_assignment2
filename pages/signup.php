@@ -35,6 +35,9 @@
             <input type="date" name="dob">
             <br>
             <button type="submit">Sign up</button>
+            <div>Already have an account? 
+                <a href="login.php">Login</a>
+            </div>
         </form>
     </div>
 </body>
