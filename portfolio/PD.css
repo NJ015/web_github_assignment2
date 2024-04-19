@@ -1,0 +1,112 @@
+.profilepic{
+    float: left;
+    width: 20%;
+    padding-left: 12px;
+    height: 100%;
+    box-sizing: border-box;
+}
+.profilepic img{
+    float: left;
+    border-radius: 50%;
+    border: 5px solid rgb(100, 57, 2);
+    width: 40%;
+}
+
+.all{
+    float: right;
+    width: 80%;
+}
+
+.row1{
+    width: 100%;
+    height: 40%;
+}
+
+.main-pic{
+    float: left;
+    overflow: hidden;
+    display: block;
+    height: 596px;
+    width: 596px;
+    border: 5px solid rgb(100, 57, 2);
+    border-radius: 30px;
+    /* box-shadow: 4px 4px 7px rgb(212, 166, 97); */
+    /* margin: 5px; */
+}
+
+.main-pic img{
+    box-sizing: border-box;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.des{
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 4px;
+    margin-top: 19px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    float: right;
+    width: 49%;
+    color: rgb(253, 225, 174);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background: rgb(213, 163, 87);
+    border: 3px solid rgb(100, 57, 2);
+    border-radius: 10px;
+    border-bottom-right-radius: 30px;
+}
+
+.other-pics{
+    float: right;
+    width: 49%;
+    margin-top: 20px;
+}
+
+.other-pics img{
+    box-sizing: border-box;
+    
+    object-fit: cover;
+    /* border: 5px solid rgb(100, 57, 2);
+    border-radius: 15px;
+    width: 30%;
+    box-shadow: 4px 4px 7px rgb(212, 166, 97);
+    border-bottom-right-radius: 30px;
+    margin: 5px; */
+}
+
+.other-pics img:active {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: scale(1);
+    z-index: 1;
+    background: rgb(248, 237, 216);
+    border: 5px solid rgb(100, 57, 2);
+    border-radius: 15px;
+    box-shadow: 4px 4px 7px rgb(212, 166, 97);
+    display: block;
+}
+
+.pics{
+    overflow: hidden;
+    display: block;
+    height: 200px;
+    width: 175px;
+    border: 5px solid rgb(100, 57, 2);
+    border-radius: 15px;
+    box-shadow: 4px 4px 7px rgb(212, 166, 97);
+    margin: 5px;
+    float: left;
+}
+
+.pics img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}

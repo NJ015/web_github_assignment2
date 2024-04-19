@@ -114,3 +114,37 @@ a{
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
+
+#welcome-logout {
+    float: right;
+    line-height: 40px;
+}
+
+#welcome {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: medium;
+    float: left;
+    /* color: rgb(141, 60, 2); */
+    color: rgb(92, 39, 1);
+    font-weight: bold;
+    font-size: large;
+}
+
+#logout {
+    float: right;
+    margin-left: 15px;
+}
+
+#logout button{
+    line-height: 38px;
+    color: rgb(253 215 188);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: large;
+    background-color: rgb(100 46 7);
+    border-width: 0px;
+    border-bottom-right-radius: 20px;
+    height: 100%;
+    width: 90px;
+}

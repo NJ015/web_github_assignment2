@@ -41,7 +41,7 @@ add_new_user($user_info);
 
 $_SESSION["name"] = $fn." ".$ln;
 
-header("location:../pages/gallery.php");
+header("location:../portfolio/Home-page.php");
 exit;
 
 

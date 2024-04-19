@@ -1,0 +1,6 @@
+main template
+at least 3 pages
+about u
+cv
+projects: each has a gallery
+add a contact info as footer or separate page

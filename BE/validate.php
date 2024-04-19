@@ -24,7 +24,7 @@ if (empty($un) || empty($pass)) {
 }
 
 if (validate_user($un, $pass)) {
-    header("location:../pages/gallery.php");
+    header("location:../portfolio/Home-page.php");
     exit;
 }
 else {

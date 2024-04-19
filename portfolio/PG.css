@@ -1,0 +1,61 @@
+.profilepic{
+    float: left;
+    width: 20%;
+    padding-left: 12px;
+    height: 100%;
+    box-sizing: border-box;
+}
+.profilepic img{
+    float: left;
+    border-radius: 50%;
+    border: 5px solid rgb(100, 57, 2);
+    width: 40%;
+}
+
+.projectpics{
+    float: right;
+    width: 80%;
+}
+
+.pic-textdiv {
+    margin: 7px;
+    float: left;
+    width: 300px;
+    height: 300px;
+    box-shadow: 4px 4px 7px rgb(212, 166, 97);
+    border-radius: 15px;
+}
+
+.picdiv{
+    margin-left: 42px;
+    margin-top: 15px;
+    /* object-fit: contain; */
+    overflow: hidden;
+    display: block;
+    height: 216px;
+    width: 216px;
+    /* position: relative; */
+    border: 5px solid rgb(100, 57, 2);
+    border-radius: 15px;
+}
+
+.picdiv img{
+    float: left;
+    /* width: 80%;  */
+    width: 100%;
+    height: 100%;
+    display: block;
+    /* position: absolute; */
+    object-fit: cover;
+    /* top: 50%; */
+    /* left: 50%; */
+}
+
+.textdiv a{
+    text-align: center;
+    display: block;
+    float: left;
+    height: 68px;
+    width: 100%;
+    line-height: 68px;
+}
