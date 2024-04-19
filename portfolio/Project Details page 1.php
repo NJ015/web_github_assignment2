@@ -7,6 +7,20 @@ if(isset($_SESSION["name"])){
 else{
     header("location:../pages/login.php");
 }
+
+function img_path() {
+    $img_path = [];
+    $gallery_file = fopen('../gallery/gallary.csv', 'r');
+    while (($row = fgetcsv($gallery_file)) !== false) {
+        $img_path[] = "<div class='pics'> <img src='../gallery/" . $row[0] . "'> </div>";
+    }
+    fclose($gallery_file);
+    foreach($img_path as $i){
+        echo $i;
+        
+    }
+}
+
 ?>
 <html>
     <head>
@@ -63,7 +77,7 @@ else{
                         A description of database project. A description of database project. A description of database project. A description of database project. A description of database project. A description of database project. <br> Press and hold to view the expanded view of the pics below. 
                     </div>
                     <div class="other-pics">
-                        <div class="pics">
+                        <!-- <div class="pics">
                             <img src="images/04612b7487da45cc8a1a4adfb0f35afb.jpeg">
                         </div>
                         <div class="pics">
@@ -80,7 +94,8 @@ else{
                         </div>
                         <div class="pics">
                             <img src="images/04612b7487da45cc8a1a4adfb0f35afb.jpeg">
-                        </div>
+                        </div> -->
+                        <?php img_path() ?>
                     </div>
                 </div>
             </div>
